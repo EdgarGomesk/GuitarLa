@@ -20,7 +20,7 @@ const cartTotal = useMemo(() => cart.reduce((total, item) => total + (item.quant
                         <div
                             className="carrito"
                         >
-                            <img className="img-fluid" src="./public/img/carrito.png" alt="imagen carrito" />
+                            <img className="img-fluid" src="/img/carrito.png" alt="imagen carrito" />
 
                             <div id="carrito" className="bg-white p-3">
 
@@ -44,7 +44,7 @@ const cartTotal = useMemo(() => cart.reduce((total, item) => total + (item.quant
                                                         <td>
                                                             <img
                                                                 className="img-fluid"
-                                                                src={`./public/img/${guitar.image}.jpg`}
+                                                                src={`/img/${guitar.image}.jpg`}
                                                                 alt="imagen guitarra" />
                                                         </td>
                                                         <td>{guitar.name}</td>
